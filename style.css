@@ -1,0 +1,297 @@
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.main-section-bg{
+    background: #f6f8ff;
+}
+/* jhon-Header */
+.john-header .navbar-brand {
+	font-size: 27px;
+	font-weight: 500;
+}
+.john-header span {
+	height: 45px;
+	width: 42px;
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+}
+.john-menu .nav-link {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+/* Slider-Caption */
+.slider-section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.slider-caption p {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.slider-caption h1 {
+	font-size: 52px;
+}
+
+.slider-caption .form-control {
+	padding: 20px 15px;
+}
+.slider-caption .btn {
+	padding: 16px 15px;
+	font-size: 22px;
+    font-weight: 600;
+    background: #5ba533;
+    border: 1px solid #5ba533;
+}
+.slider-caption .btn:hover{
+    background: #ffff;
+    color: #6278df;
+    border:#6278df;
+}
+/* Number-Counter */
+.counter-number{}
+.counter-number h1 {
+	font-size: 56px;
+	margin-bottom: 14px;
+}
+.counter-number p {
+	font-size: 22px;
+	color: #767676;
+}
+/* About-Caption */
+.about-caption {
+	margin-top: 114px;
+}
+.about-caption h1 {
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.about-caption p {
+	font-size: 22px;
+	line-height: 1.6em;
+}
+/* Feature-Section */
+.feature-text h1 {
+	font-size: 46px;
+	font-weight: 400;
+	margin-bottom: 27px;
+}
+.feature-text p {
+	font-size: 24px;
+	color: #767676;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+.feature-item {
+	height: 300px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	transition: .4s;
+}
+.feature-item:hover{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.feature-img {
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.feature-img img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -110px;
+}
+.robin img {
+	width: uto;
+	position: relative;
+	left: -30px;
+}
+.feature-caption {
+	width: 60%;
+	padding: 29px;
+	margin-top: 20px;
+}
+.feature-caption h5 {
+	font-size: 21px;
+	font-weight: 500;
+}
+.feature-caption p {
+	color: #767676;
+	line-height: 1.4rem;
+}
+/* Portfolio-Section */
+.portfolio-img a{
+	position: relative;
+	display: block;
+}
+.portfolio-img a::before{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(98, 120, 223, .5);
+	visibility: hidden;
+	opacity: 0;
+	transition: .4s;
+}
+.portfolio-img:hover a::before{
+	visibility: visible;
+	opacity: 1;
+}
+/* Pricing-Section */
+.pricing-item {
+	background: #fff;
+	padding: 50px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-item h3 {
+	font-size: 43px;
+	margin-bottom: 20px;
+}
+.pricing-item h5 {
+	font-size: 21px;
+	font-weight: 300;
+	color: #767676;
+	margin-bottom: 23px;
+}
+.pricing-item ul{
+	list-style: none;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-bottom: 40px;
+}
+.pricing-item ul li {
+	font-size: 23px;
+	margin-bottom: 30px;
+	color: #767676;
+}
+.pricing-item ul li span {
+	display: inline-block;
+	width: 38px;
+	font-size: 31px;
+	color: #6278df;
+}
+.pricing-btn .btn {
+	padding: 15px 20px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #6278df;
+}
+
+.pricing-item:hover .btn{
+	background: #007acc;
+	color: #fff;
+} 
+.pricing-btn:hover .btn{
+	background: #000;
+	color: #fff;
+}
+/* Testimonial-Section */
+.testimonial-caption{}
+.testimonial-caption h1{}
+.testimonial-caption h4 {
+	font-size: 28px;
+	color: #767676;
+	margin-bottom: 30px;
+}
+.testimonial-caption span {
+	font-size: 70px;
+	color: #f0f0f0;
+}
+.testi-img{
+}
+.testi-img img {
+	width: 90px;
+	margin-right: 15px;
+}
+.testimonial-item {
+	width: 250px;
+	margin: auto;
+	text-align: left;
+}
+.testi-text h3 {
+	font-size: 21px;
+}
+.testimonial-caption p {
+	font-size: 21px;
+}
+.testi-text {
+	position: relative;
+	top: 15px;
+}
+.testi-text p{
+
+}
+/* About-Section */
+.about-items {
+	margin-top: 100px;
+}
+.about-items .card img {
+	width: 122px;
+	margin-top: -60px;
+	margin-left: 11px;
+}
+/* Contact-Section */
+.cotact-item .card-body h3 {
+	margin-bottom: 30px;
+}
+.contact-btn {
+	margin-top: 30px;
+}
+/* Get-App-Caption */
+.get-app-caption{}
+.get-app-caption h3 {
+	color: #767676;
+	margin-bottom: 30px;
+}
+.get-app-caption h1 {
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+.get-btn .btn {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 15px 10px;
+}
+.get-btn .apple {
+	border: 2px solid #5ba533;
+	color: #5ba533;
+}
+.get-btn .apple:hover{
+	background: #5ba533;
+	color: #fff;
+}
+.get-btn .google {
+	background: #5ba533;
+	color: #fff;
+     border: 2px solid #5ba533;
+}
+.get-btn .google:hover{
+	background: #000;
+	color: #fff;
+}
